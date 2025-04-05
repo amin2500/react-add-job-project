@@ -8,8 +8,8 @@ const App = () => {
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<MainLayouts/>}>
 
-   <Route path="/" element={<Homepage/>}/>
-   <Route path="/index/jobs" element={<Jobpage/>}/>
+   <Route path="https://amin2500.github.io/react-add-job-project/" element={<Homepage/>}/>
+   <Route path="https://amin2500.github.io/react-add-job-project/jobs" element={<Jobpage/>}/>
    <Route path="*" element={<NotFoundPage/>}/>
 
    </Route>

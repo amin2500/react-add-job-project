@@ -26,11 +26,11 @@ const Navbar = () => {
             <div className="md:ml-auto">
               <div className="flex space-x-2">
                 <NavLink
-                  to="/"
+                  to="https://amin2500.github.io/react-add-job-project/"
                   className={linkClass}
                   >Home</NavLink>
                 <NavLink
-                  to="/index/jobs"
+                  to="https://amin2500.github.io/react-add-job-project/jobs"
                   className={linkClass}
                   >Jobs</NavLink>
                 <NavLink

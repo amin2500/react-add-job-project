@@ -9,9 +9,9 @@ export default defineConfig({
     port:3000,
     proxy:{
       '/api':{
-        target: "https://amin2500.github.io/react-add-job-project/",
+        target: "http://localhost:5000/posts",
         changeOrigin:true,
-        rewrite:(path) => path.replace(/^\/api/, ''),
+        rewrite:(path) => path.replace(/^\/api/, 'https://amin2500.github.io/react-add-job-project/'),
       },
     },
   },
